@@ -41,5 +41,7 @@ public Boolean bitVector(String input){
 		else
 			count = count & ~mask;
 	}
+	if(count == 0)
+		return true;
 	return (count & (count - 1)) == 0;
 }
