@@ -1,2 +1,6 @@
 github
 github.pub
+*.iml
+*.idea
+out
+.DS_Store
